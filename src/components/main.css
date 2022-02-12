@@ -108,3 +108,8 @@ a {
 .modelTitle {
     font-weight: bold;
 }
+
+h4, .textCarousel {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

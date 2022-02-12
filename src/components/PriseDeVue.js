@@ -7,8 +7,7 @@ export default function PriseDeVue() {
   return (
     <Container fluid>
       <Row>
-        <Col xs={0} sm={2}>
-        </Col>
+        <Col xs={0} sm={2}></Col>
         <Col xs={true}>
           <div class="paragraphe">
             <h1>Collecte d'images</h1>
@@ -32,8 +31,11 @@ export default function PriseDeVue() {
               similaires entre chaque image.
             </p>
             <div class="backImg">
-            <img src="images/PriseDeVueImg1.jpg" />
-            <p class="legende">Ici, on voit sous forme de schéma le processus de prise de photos avec le smartphone. </p>
+              <img src="images/PriseDeVueImg1.jpg" />
+              <p class="legende">
+                Ici, on voit sous forme de schéma le processus de prise de
+                photos avec le smartphone.{" "}
+              </p>
             </div>
             <p>
               Toutes ses images permettront, une fois importées dans le logiciel
@@ -50,27 +52,33 @@ export default function PriseDeVue() {
               lors de mes tests l’application PIX4D capture.
             </p>
             <div class="backImg">
-            <Row>
-               <Col xs={true}>
-                <img src="images/PriseDeVueImg2.jpg"/>
-            </Col>
-            <Col xs={true}>
-            <img src="images/PriseDeVueImg3.jpg"/>
-            <p class="legende">Capture d’écran de l’application après la prise de vue, qui montre toutes les images prises dans le quadrillage, ainsi que le compte rendu de l’application</p>
-            </Col>
-            </Row>
+              <Row>
+                <Col xs={true}>
+                  <img src="images/PriseDeVueImg2.jpg" />
+                </Col>
+                <Col xs={true}>
+                  <img src="images/PriseDeVueImg3.jpg" />
+                  <p class="legende">
+                    Capture d’écran de l’application après la prise de vue, qui
+                    montre toutes les images prises dans le quadrillage, ainsi
+                    que le compte rendu de l’application
+                  </p>
+                </Col>
+              </Row>
             </div>
-            <br/>
+            <br />
             <p>
-              L’utilisation est
-              assez simple. Il faut délimiter une zone et altitude de travail,
-              ensuite le drone quadrillera la zone en prenant de nombreuses
-              photos. Cela permet de créer un modèle assez précis de la zone
-              délimitée dans l’application.
+              L’utilisation est assez simple. Il faut délimiter une zone et
+              altitude de travail, ensuite le drone quadrillera la zone en
+              prenant de nombreuses photos. Cela permet de créer un modèle assez
+              précis de la zone délimitée dans l’application.
             </p>
             <div class="backImg">
-              <img src="images/PriseDeVueImg4.jpg"/>
-              <p class="legende">Rendu après traitement par le logiciel des 127 images prises ci-dessus. </p>
+              <img src="images/PriseDeVueImg4.jpg" />
+              <p class="legende">
+                Rendu après traitement par le logiciel des 127 images prises
+                ci-dessus.{" "}
+              </p>
             </div>
             <p>
               Dans certains cas, cette modélisation suffit. Mais parfois, il
@@ -88,32 +96,35 @@ export default function PriseDeVue() {
               d’avoir un objet 3D final très détaillé.
             </p>
             <div class="backImg">
-            <img src="images/PriseDeVueImg5.jpg"/>
-            <p class="legende">
-              Cette image montre le plan de vol détaillé modélisé dans le
-              logiciel Agisoft Metashape
-            </p>
+              <img src="images/PriseDeVueImg5.jpg" />
+              <p class="legende">
+                Cette image montre le plan de vol détaillé modélisé dans le
+                logiciel Agisoft Metashape
+              </p>
             </div>
             <h2>3. Conditions de réussite de la prise de vue</h2>
             <p>
-              Pour une bonne prise de vue, il faut absolument que certaines conditions 
-              soient réunies. Il faut que la zone soit bien éclairée, avec (pour le drone) 
-              un luminosité extérieure élevée et si possible peu de zones d’ombre. Les zones 
-              ombragées seront reportées sur le modèle et peuvent donner un rendu médiocre 
-              de la modélisation 3D. Il faut également penser si le matériel le permet, à 
-              utiliser le format de fichier RAW afin d’avoir un maximum de données par image. 
-              Il est également inutile d’utiliser des filtres ou de retoucher les images avant 
-              traitement. Les images RAW sont celles qui contiennent le plus d’informations, et 
-              seront donc bien plus intéressantes pour avoir de bons résultats de modélisation. 
+              Pour une bonne prise de vue, il faut absolument que certaines
+              conditions soient réunies. Il faut que la zone soit bien éclairée,
+              avec (pour le drone) un luminosité extérieure élevée et si
+              possible peu de zones d’ombre. Les zones ombragées seront
+              reportées sur le modèle et peuvent donner un rendu médiocre de la
+              modélisation 3D. Il faut également penser si le matériel le
+              permet, à utiliser le format de fichier RAW afin d’avoir un
+              maximum de données par image. Il est également inutile d’utiliser
+              des filtres ou de retoucher les images avant traitement. Les
+              images RAW sont celles qui contiennent le plus d’informations, et
+              seront donc bien plus intéressantes pour avoir de bons résultats
+              de modélisation.
             </p>
             <p>
-              Il est également possible d’imprimer des modèles 3D générés afin d’avoir de 
-              meilleures représentations visuelles de l’espace, et ainsi créer des maquettes simplement. 
+              Il est également possible d’imprimer des modèles 3D générés afin
+              d’avoir de meilleures représentations visuelles de l’espace, et
+              ainsi créer des maquettes simplement.
             </p>
           </div>
         </Col>
-        <Col xs={0} sm={2}>
-        </Col>
+        <Col xs={0} sm={2}></Col>
       </Row>
     </Container>
   );

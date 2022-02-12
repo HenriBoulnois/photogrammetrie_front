@@ -1,4 +1,4 @@
-import React, { useRef, useState, Suspense } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -28,9 +28,7 @@ export default function App() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <Col xs={0} sm={2}>
-          bordure gauche
-        </Col>
+        <Col xs={0} sm={2}></Col>
         <Col xs={true}>
           <div class="paragrapheAccueil">
             <Row>
@@ -39,24 +37,33 @@ export default function App() {
             <Row>
               <Col xs={3}>
                 <div class="tab">
-                <ol>
-                  <li>
-                    <a href="/smartphone" class="modelTitle">Applications de tous les jours</a>
-                  </li>
-                  <li class="modelTitle">Modélisation</li>
                   <ol>
                     <li>
-                      <a href="/prise-de-vue">Collecte d'images</a>
+                      <a href="/smartphone" class="modelTitle">
+                        Applications de tous les jours
+                      </a>
                     </li>
-                    <li>
-                      <a href="/traitement">Traitement</a>
-                    </li>
-                    <li>
-                      <a href="/visualisation">Visualisations des résultats</a>
+                    <li class="modelTitle">Modélisation</li>
+                    <ol>
+                      <li>
+                        <a href="/prise-de-vue">Collecte d'images</a>
+                      </li>
+                      <li>
+                        <a href="/traitement">Traitement</a>
+                      </li>
+                      <li>
+                        <a href="/visualisation">
+                          Visualisations des résultats
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/lidar">Lidar</a>
+                      </li>
+                    </ol>
+                    <li class="modelTitle">
+                      <a href="/contact">Contact</a>
                     </li>
                   </ol>
-                  <li class="modelTitle"><a href="/contact">Contact</a></li>
-                </ol>
                 </div>
               </Col>
               <Col>
@@ -93,17 +100,23 @@ export default function App() {
               </Col>
               <p>
                 Ce site a été réalisé par Adrien Bassail et Henri Boulnois
-                <ul><li>Henri Boulnois : Réalisation du site, déploiement et contact</li><li>Adrien Bassail : Recherches sur le sujet, modélisations 3D, contenu des pages. </li></ul>
-             
-             
-              N’hésitez pas a nous contacter via le formulaire de contact pour toute prestation ou demande d’informations, nous prendrons soin de vous répondre rapidement. 
+                <ul>
+                  <li>
+                    Henri Boulnois : Réalisation du site, déploiement et contact
+                  </li>
+                  <li>
+                    Adrien Bassail : Recherches sur le sujet, modélisations 3D,
+                    contenu des pages.{" "}
+                  </li>
+                </ul>
+                N’hésitez pas a nous contacter via le formulaire de contact pour
+                toute prestation ou demande d’informations, nous prendrons soin
+                de vous répondre rapidement.
               </p>
             </Row>
           </div>
         </Col>
-        <Col xs={0} sm={2}>
-          bordure droite
-        </Col>
+        <Col xs={0} sm={2}></Col>
       </Row>
     </Container>
   );
