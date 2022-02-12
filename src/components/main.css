@@ -1,0 +1,110 @@
+.paragraphe {
+    background-color: rgb(228, 226, 222);
+    padding: 4%;
+    margin: 3%;
+    border-radius: 15px;
+}
+
+.paragrapheAccueil {
+    background-color: rgb(228, 226, 222);
+    padding: 4%;
+    margin: 3%;
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.legende {
+    text-align: center;
+    font-style: italic;
+    color: rgb(81, 81, 121);
+    margin-bottom: 0;
+}
+
+.backImg {
+    background-color: rgb(209, 206, 202);
+    padding: 2%;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    margin: auto;
+    display: flex;
+    max-width: 100%; 
+}
+
+.succes {
+    background-color: rgb(188, 228, 127);
+    border-color: rgb(126, 199, 126);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2%
+}
+
+.erreur {
+    background-color: rgb(226, 184, 184);
+    border-color: rgb(172, 142, 142);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2%
+}
+
+.erreur>p, .succes>p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+form {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+label {
+    padding-top: 2%;
+}
+
+.submitButton {
+   margin: 20px;
+}
+
+.imgCarousel {
+    min-width: 100%;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.paragrapheAccueil li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tab {
+    background-color: rgb(209, 206, 202);
+    padding: 2%;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.modelTitle {
+    font-weight: bold;
+}

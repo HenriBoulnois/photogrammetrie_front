@@ -1,0 +1,38 @@
+* {
+  font-family: Gill Sans, sans-serif;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navigation {
+  background-color: rgb(228, 226, 222);
+  border-color: rgb(197, 195, 192);
+  border-style: none solid none solid;
+  border-width: 1px;
+}
+.navigation:hover{
+  background-color: rgb(197, 195, 192);
+}
+
+.dropdownTitle {
+  background-color: rgb(228, 226, 222);
+}
+
+.dropdownItem {
+  background-color: rgb(228, 226, 222);
+  text-align: center;
+}
+
+.dropdown-menu.show {
+  padding: 0;
+  min-width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
