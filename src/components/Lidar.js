@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 export default function Lidar() {
   return (
     <Container fluid>
-      <Row>
+      <Row style={{ marginLeft: 0, marginRight: 0 }}>
         <Col xs={0} sm={2}></Col>
         <Col xs={true}>
           <div class="paragraphe">

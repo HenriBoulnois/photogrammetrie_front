@@ -5,9 +5,9 @@ import Row from "react-bootstrap/Row";
 
 export default function Smartphone() {
   return (
-    <Container fluid>
-      <Row>
-        <Col xs={0} sm={2}></Col>
+    <Container fluid style={{ marginLeft: 0, marginRight: 0 }}>
+      <Row style={{ marginLeft: 0, marginRight: 0 }}>
+        <Col xs={0} sm={2} style={{ marginLeft: 0, marginRight: 0 }}></Col >
         <Col xs={true}>
           <div class="paragraphe">
             <h1>Dès le smartphone</h1>
@@ -86,7 +86,7 @@ export default function Smartphone() {
             <p>Insérer ici deux visualisations.</p>
           </div>
         </Col>
-        <Col xs={0} sm={2}></Col>
+        <Col xs={0} sm={2} style={{ marginLeft: 0, marginRight: 0 }}></Col>
       </Row>
     </Container>
   );

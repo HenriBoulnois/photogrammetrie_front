@@ -7,7 +7,7 @@ import Carousel from "react-bootstrap/Carousel";
 export default function Traitement() {
   return (
     <Container fluid>
-      <Row>
+      <Row style={{ marginLeft: 0, marginRight: 0 }}>
         <Col xs={0} sm={2}></Col>
         <Col xs={true}>
           <div class="paragraphe">

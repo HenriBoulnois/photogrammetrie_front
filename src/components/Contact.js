@@ -20,7 +20,7 @@ const Contact = () => {
     const today = new Date();
     axios
       .post(
-        "http://localhost:8080/api/contact",
+        "https://photogrammetrie-back.herokuapp.com/api/contact",
         {
           name: inputs.nom,
           email: inputs.email,
@@ -31,7 +31,7 @@ const Contact = () => {
         {
           headers: {
             "Content-type": "application/json; charset=UTF-8",
-            "Access-Control-Allow-Origin": "http://localhost:8080/api/contact",
+            "Access-Control-Allow-Origin": "https://photogrammetrie-back.herokuapp.com/api/contact",
           },
         }
       )
@@ -70,7 +70,7 @@ const Contact = () => {
 
   return (
     <Container fluid>
-      <Row>
+      <Row style={{ marginLeft: 0, marginRight: 0 }}>
         <Col xs={0} sm={2}></Col>
         <Col xs={true}>
           <div class="paragraphe">

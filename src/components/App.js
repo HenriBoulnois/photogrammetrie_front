@@ -7,7 +7,7 @@ import Carousel from "react-bootstrap/Carousel";
 export default function App() {
   return (
     <Container fluid>
-      <Row>
+      <Row style={{ marginLeft: 0, marginRight: 0 }}>
         <Carousel>
           <Carousel.Item>
             <img src="images/testbanniere.jpg" class="imgCarousel" />
