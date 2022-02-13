@@ -22,7 +22,9 @@ export default function Traitement() {
                 </p>
               </Col>
               <Col xs={3}>
+              <a href="https://www.agisoft.com/">
                 <img src="images/Traitement1.jpg" />
+                </a>
               </Col>
             </Row>
             <p>
@@ -31,13 +33,11 @@ export default function Traitement() {
               d’utilisation non négligeable. Il est beaucoup utilisé et de
               nombreux tutoriels sont disponibles pour aider à le paramétrer.
             </p>
-            <p>
-              Lien vers Metashape :
-              <a href="https://www.agisoft.com/"> https://www.agisoft.com/</a>
-            </p>
             <Row>
               <Col xs={3}>
+              <a href="https://micmac.ensg.eu/index.php/Accueil">
                 <img src="images/Traitement2.jpg" />
+                </a>
               </Col>
               <Col>
                 <p>
@@ -49,12 +49,6 @@ export default function Traitement() {
                 </p>
               </Col>
             </Row>
-            <p>
-              Lien vers MicMac :
-              <a href="https://micmac.ensg.eu/index.php/Accueil">
-                https://micmac.ensg.eu/index.php/Accueil
-              </a>
-            </p>
             <p>
               Tous les logiciels de traitement d’images par photogrammétrie
               nécessitent un ordinateur performant. Plus il y a de RAM, plus il
@@ -100,15 +94,9 @@ export default function Traitement() {
               entre elles, et de calculer leur angle de vue.
             </p>
             <div class="backImg">
-              <Row>
-                <Col>
-                  <p>Pour cela, on choisit l’outil d’alignement des images :</p>
-                  <p>Ces options permettent le meilleur rendement. </p>
-                </Col>
-                <Col>
+                  <div class="legende">Pour cela, on choisit l’outil d’alignement des images :
+                  Ces options permettent le meilleur rendement.</div>
                   <img src="images/Traitement4.jpg" />
-                </Col>
-              </Row>
             </div>
             <p>
               La précision haute permet de se baser sur les images en taille
@@ -128,7 +116,7 @@ export default function Traitement() {
               photos n’ont pas été alignées (plus de 10%), la prise de photos a
               été mal réalisée et le chevauchement des images n’est pas
               suffisant. (voir{" "}
-              <a href="/prise-de-vue">conseils de prise d’images</a>).
+              <a href="/prise-de-vue#chapitre3">conseils de prise d’images</a>).
             </p>
             <div class="backImg">
               <img src="images/Traitement5.jpg" />
@@ -151,16 +139,10 @@ export default function Traitement() {
               nombre de points calculés dans une zone intéressante.
             </p>
             <div class="backImg">
-              <Row>
-                <Col>
-                  <p>
-                    On choisit l’outil de création de nuage de points dense :{" "}
-                  </p>
-                </Col>
-                <Col>
+                <div class="legende">
+                  On choisit l’outil de création de nuage de points dense :
+                  </div>
                   <img src="images/Traitement6.jpg" />
-                </Col>
-              </Row>
             </div>
             <p>
               La qualité choisie déterminera le temps de traitement. La haute
@@ -207,15 +189,15 @@ export default function Traitement() {
               Les temps de traitement sont d’environ 2 à 3h pour les modèles
               suivants.
             </p>
-            <h3>Retirer les points avec un faible niveau de confiance. </h3>
+            <h3>C. Retirer les points avec un faible niveau de confiance. </h3>
             <div class="backImg">
               <Row>
                 <Col>
-                  <img src="images/Traitement7.jpg" />
+                  <img src="images/Traitement8.jpg" />
                 </Col>
 
                 <Col>
-                  <img src="images/Traitement8.jpg" />
+                  <img src="images/Traitement7.jpg" />
                 </Col>
                 <div class="legende">
                   Images représentant le modèle de rails avant et après avoir
@@ -238,18 +220,15 @@ export default function Traitement() {
             </div>
             <br />
             <div class="backImg">
-              <Row>
-                <Col>
-                  <p>
+
+                  <p class="legende"> 
                     On voit sur l’image à gauche la zone où est passé le drone
                     (zone quadrillée verte, et dans le rectangle jaune les
-                    dimensions du modèle généré.
+                    dimensions du modèle généré.)
                   </p>
-                </Col>
-                <Col>
+
                   <img src="images/Traitement10.jpg" />
-                </Col>
-              </Row>
+
             </div>
             <p>
               On remarque que le modèle possède un niveau de confiance bien plus
@@ -267,17 +246,14 @@ export default function Traitement() {
               correctement
             </p>
             <div class="backImg">
-              <Row>
-                <Col>
-                  <p>
+
+                  <p class="legende">
                     La source de données est le nuage dense généré à l’étape
                     précédente.
                   </p>
-                </Col>
-                <Col>
+
                   <img src="images/Traitement11.jpg" />
-                </Col>
-              </Row>
+
             </div>
             <p>
               Le nombre de faces est à paramétrer en fonction du paramétrage du
@@ -308,9 +284,8 @@ export default function Traitement() {
               d’utiliser le format glTF qui permet de sauvegarder les textures
               et le modèle dans un même fichier. Ce format est adapté à une
               diffusion du modèle sur un site web. Vous pouvez manipuler le
-              rendu final des deux modèles ci-dessous, ou d’autres modèles sur
-              la page de <a href="/visualisation">visualisations</a>. Modèle
-              rails complet Modèle rails rails
+              rendu final des deux modèles ainsi que trois autres modèles sur
+              la page de <a href="/visualisation">visualisations</a>.
             </p>
           </div>
         </Col>

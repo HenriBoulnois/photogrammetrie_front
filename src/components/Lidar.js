@@ -43,7 +43,9 @@ export default function Lidar() {
               dimensions.
             </p>
             <h2>1. Capture du modèle </h2>
-            <p>
+            <Row>
+              <Col>
+              <p>
               Grâce a un iPhone 13 et l’application Polycam, nous allons voir
               comment générer un objet 3D, et comparer son rendu avec celui
               d’une photogrammétrie classique par drone. Nous pourrons ainsi en
@@ -61,15 +63,21 @@ export default function Lidar() {
               uniquement le nuage de points pour améliorer le rendu avec un
               calcul sur ordinateur.
             </p>
+              </Col>
+              <Col>
+              <img src="images/LIDAR2.jpg"/>
+              </Col>
+            </Row>
+            <h2>2. Visualisation et interprétation des résultats : </h2>
             <p>
               J’ai réussi à générer les modèles suivant juste à l’aide d’un
               smartphone :
             </p>
-            <h5>Modèle du drone </h5>
             <div class="backImg">
+            <h5>Modèle du drone </h5>
               <iframe
                 width="100%"
-                height="100%"
+                height="500px"
                 frameborder="0"
                 src="https://poly.cam/capture/1A667C2B-97BD-44D1-B20D-F031E39265C4"
               ></iframe>
@@ -83,7 +91,7 @@ export default function Lidar() {
               <h5>Modèle rails</h5>
               <iframe
                 width="100%"
-                height="100%"
+                height="500px"
                 frameborder="0"
                 src="https://poly.cam/capture/3C0B638F-F740-4970-8FDC-41E6093D57F4"
               ></iframe>
@@ -100,6 +108,7 @@ export default function Lidar() {
             <br />
             <div class="backImg">
               <h5>Modèle le touquet </h5>
+              <iframe width="100%" height="500px" frameborder="0" src="https://poly.cam/capture/BB080C8B-22F4-4436-A760-C060BDB89448"></iframe> 
               <div class="legende">
                 Le lidar, qui permet de capter l’environnement a une distance
                 maximale de 5m, est très a l’aise en intérieur. On remarque
@@ -108,6 +117,13 @@ export default function Lidar() {
                 minutes).{" "}
               </div>
             </div>
+            <h2>3. Navigation dans un de ses modèles </h2>
+            <p>
+            Grace a une application sur smartphone, il est possible de naviguer dans le modèle, on peut imaginer une utilisation de cette fonctionnalité pour réaliser par exemple des visites virtuelles d’appartements. Cela pourrait permettre de se faire un premier avis sur une visite de bien, sans avoir a se déplacer.  
+            </p>
+            <iframe width="100%" height="500px"
+src="https://www.youtube.com/embed/xPZxJhGs9NE">
+</iframe> 
           </div>
         </Col>
         <Col xs={0} sm={2}></Col>

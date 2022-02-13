@@ -10,7 +10,7 @@ export default function Smartphone() {
         <Col xs={0} sm={2} style={{ marginLeft: 0, marginRight: 0 }}></Col >
         <Col xs={true}>
           <div class="paragraphe">
-            <h1>Dès le smartphone</h1>
+            <h1>La photogrammetrie au quotidien</h1>
             <h2>1. La modélisation 3D en général </h2>
             <p>
               La modélisation 3D est aujourd’hui très utilisée. Elle permet de
@@ -23,8 +23,8 @@ export default function Smartphone() {
               présenter des objets ou en imagerie médicale et scientifique.
             </p>
             <p>
-              Dans les pages suivantes, nous allons modéliser des objets en 3D
-              par photogrammétrie ou utilisation de Lidar.
+              Dans les pages suivantes, nous allons <a href="/prise-de-vue">modéliser</a> des objets en 3D
+              par photogrammétrie ou utilisation de <a href="/lidar">Lidar</a>.
             </p>
             <h2>2. Images google maps </h2>
             <p>
@@ -60,8 +60,7 @@ export default function Smartphone() {
             </p>
             <p>
               Mais, cette photo plate est également réalisée par
-              photogrammétrie. C’est une orthophotographie.3. (lien page de wiki
-              ortophoto) En effet, les images satellites sont liées entre elles
+              photogrammétrie. C’est une <a href="https://fr.wikipedia.org/wiki/Orthophotographie">orthophotographie</a>. En effet, les images satellites sont liées entre elles
               pour ne faire qu’une grande photo de la terre. Les points de
               correspondance qui permettent de lier les photos entre elles sont
               calculés par photogrammétrie.
@@ -76,14 +75,32 @@ export default function Smartphone() {
               Grace a une application dédiée, n’importe quel propriétaire de
               smartphone haut de gamme peut générer des objets 3D. C’est très
               simple à prendre en main, mais un usage plus poussé de ses
-              capteurs permet des rendus très intéressants. Voir plus de détails
-              sur cette technologie + exemples. (lien vers page lidar)
+              capteurs permet des rendus très intéressants. <a href="/lidar">Voir plus de détails
+              sur cette technologie + exemples.</a>
             </p>
             <p>
               Voici ici un résultat de modélisations réalisées avec un IPhone 13
               Pro
             </p>
-            <p>Insérer ici deux visualisations.</p>
+            <div class="backImg">
+            <h5>Modèle du drone </h5>
+              <iframe
+                width="100%"
+                height="500px"
+                frameborder="0"
+                src="https://poly.cam/capture/1A667C2B-97BD-44D1-B20D-F031E39265C4"
+              ></iframe>
+            </div>
+            <br />
+            <div class="backImg">
+              <h5>Modèle rails</h5>
+              <iframe
+                width="100%"
+                height="500px"
+                frameborder="0"
+                src="https://poly.cam/capture/3C0B638F-F740-4970-8FDC-41E6093D57F4"
+              ></iframe>
+            </div>
           </div>
         </Col>
         <Col xs={0} sm={2} style={{ marginLeft: 0, marginRight: 0 }}></Col>

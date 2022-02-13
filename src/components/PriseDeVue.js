@@ -102,7 +102,7 @@ export default function PriseDeVue() {
                 logiciel Agisoft Metashape
               </p>
             </div>
-            <h2>3. Conditions de réussite de la prise de vue</h2>
+            <h2 id="chapitre3">3. Conditions de réussite de la prise de vue</h2>
             <p>
               Pour une bonne prise de vue, il faut absolument que certaines
               conditions soient réunies. Il faut que la zone soit bien éclairée,

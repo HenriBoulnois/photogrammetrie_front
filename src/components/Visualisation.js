@@ -60,7 +60,7 @@ function Maison2({ ...props }) {
   );
 }
 
-export default function App() {
+export default function Visualisation() {
   return (
     <Container fluid>
       <Row style={{ marginLeft: 0, marginRight: 0 }}>
@@ -117,7 +117,7 @@ export default function App() {
               </p>
             </div>
             <br />
-            <h5>Modèle n°3 Chapelle </h5>
+            <h5 id="modeleChapelle">Modèle n°3 Chapelle </h5>
             <ul>
               <li>154 images RAW (150 alignées) </li>
               <li>
@@ -138,7 +138,7 @@ export default function App() {
               <p class="legende">
                 Ce modèle est le seul que j’ai traité avec un plan de vol généré
                 avec le logiciel de traitement. (
-                <a href="/Traitement">chapitre 3</a>). On peut observer une
+                <a href="/Traitement">Lien vers le chapitre sur le traitement</a>). On peut observer une
                 bonne qualité et une belle restitution des détails, excepté sur
                 la face avant qui manque de détails, en raison d’une mauvaise
                 luminosité.

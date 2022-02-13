@@ -112,4 +112,6 @@ a {
 h4, .textCarousel {
     color: rgb(0, 0, 0);
     text-align: center;
+    background-color: rgb(255, 255, 255,0.5);
+    border-radius: 15px;
 }

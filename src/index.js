@@ -14,6 +14,7 @@ import "./components/main.css";
 import Visualisation from "./components/Visualisation";
 import Lidar from "./components/Lidar";
 
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -25,7 +26,7 @@ ReactDOM.render(
         </Nav.Item>
         <Nav.Item as="li">
           <div class="navigation">
-            <Nav.Link href="/smartphone">Smartphone</Nav.Link>
+            <Nav.Link href="/smartphone">La photogrammetrie au quotidien</Nav.Link>
           </div>
         </Nav.Item>
         <NavDropdown

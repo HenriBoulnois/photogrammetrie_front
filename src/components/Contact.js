@@ -64,7 +64,7 @@ const Contact = () => {
         </div>
       );
     } else {
-      return <p>Veuillez compléter le formulaire</p>;
+      return <p></p>;
     }
   }
 
@@ -74,6 +74,8 @@ const Contact = () => {
         <Col xs={0} sm={2}></Col>
         <Col xs={true}>
           <div class="paragraphe">
+            <h1>Page de contact</h1>
+            <p>Si vous avez des questions, que vous souhaitez réaliser des prises de vue en photogrammetrie ou juste si l'un des sujets évoqués vous intéresse, n'hésitez pas à nous envoyer un message !</p>
             <form onSubmit={handleSubmit}>
               <Col>
                 <label>Entrez votre nom:</label>
@@ -109,10 +111,14 @@ const Contact = () => {
                 />
               </Row>
               <div class="submitButton">
-                <Button as="input" type="submit" value="Submit" />
+                <Button as="input" type="submit" value="Envoyer" />
               </div>
             </form>
             <IsPresent />
+            <p>Ce projet a été réalisé dans le cadre du cours "Ac Lab" du Master 1 Cyber de l'Unversité Catholique de Lille</p>
+            <a href="https://www.fges.fr/cursus-universitaire/licence-sts/master-informatique-cyber/">
+            <img src="images/Contact1.jpg" alt="Logo fges"/></a>
+            <p>Lien vers nos github : <a href="https://github.com/HenriBoulnois">Henri Boulnois</a> / <a href="https://github.com/Adrien-Ba">Adrien Bassail</a></p>
           </div>
         </Col>
         <Col xs={0} sm={2}></Col>

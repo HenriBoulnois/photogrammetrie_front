@@ -1,8 +1,21 @@
-import React from "react";
+import React, { Suspense, useRef } from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Carousel from "react-bootstrap/Carousel";
+import { Canvas } from "react-three-fiber";
+import { OrbitControls, useGLTF } from "@react-three/drei";
+
+function Chapelle({ ...props }) {
+  const group = useRef();
+  const { nodes } = useGLTF("/chapelle.glb");
+
+  return (
+    <group ref={group} {...props} dispose={null}>
+      <mesh geometry={nodes.mesh_0.geometry} material={nodes.mesh_0.material} />
+    </group>
+  );
+}
 
 export default function App() {
   return (
@@ -28,7 +41,7 @@ export default function App() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <Col xs={0} sm={2}></Col>
+        <Col xs={0} sm={0} md={0} lg={2}></Col>
         <Col xs={true}>
           <div class="paragrapheAccueil">
             <Row>
@@ -40,7 +53,7 @@ export default function App() {
                   <ol>
                     <li>
                       <a href="/smartphone" class="modelTitle">
-                        Applications de tous les jours
+                        La photogrammetrie au quotidien
                       </a>
                     </li>
                     <li class="modelTitle">Modélisation</li>
@@ -95,9 +108,17 @@ export default function App() {
                 </p>
                 <p>
                   Ci-dessus un exemple de modèle généré, que l’on retrouvera
-                  dans le site.
+                  dans le site. (<a href="/visualisation#modeleChapelle">Lien vers le modèle et sa description</a>)
                 </p>
               </Col>
+              <h5>Modèle 3D Chapelle </h5>
+                <Canvas camera={{ position: [0, 0, 10] }}>
+                  <ambientLight intensity={0.5} />
+                  <Suspense fallback={null}>
+                    <OrbitControls />
+                    <Chapelle position={[-8, 2, -128]} />
+                  </Suspense>
+                </Canvas>
               <p>
                 Ce site a été réalisé par Adrien Bassail et Henri Boulnois
                 <ul>
@@ -109,14 +130,15 @@ export default function App() {
                     contenu des pages.{" "}
                   </li>
                 </ul>
-                N’hésitez pas a nous contacter via le formulaire de contact pour
-                toute prestation ou demande d’informations, nous prendrons soin
-                de vous répondre rapidement.
+                N’hésitez pas a nous contacter via le{" "}
+                <a href="/contact">formulaire de contact</a> pour toute
+                prestation ou demande d’informations, nous prendrons soin de
+                vous répondre rapidement.
               </p>
             </Row>
           </div>
         </Col>
-        <Col xs={0} sm={2}></Col>
+        <Col xs={0} sm={0} md={0} lg={2}></Col>
       </Row>
     </Container>
   );
