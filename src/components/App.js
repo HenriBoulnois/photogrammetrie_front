@@ -23,7 +23,7 @@ export default function App() {
       <Row style={{ marginLeft: 0, marginRight: 0 }}>
         <Carousel>
           <Carousel.Item>
-            <img src="images/accueilcarousel1.png" class="imgCarousel" />
+            <img src="images/AccueilCarousel1.jpg" class="imgCarousel" />
             <Carousel.Caption>
               <h3>Prise large de drone</h3>
             </Carousel.Caption>
@@ -35,7 +35,7 @@ export default function App() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src="images/accueilcarousel3.png" class="imgCarousel" />
+            <img src="images/AccueilCarousel3.jpg" class="imgCarousel" />
             <Carousel.Caption>
               <h3 class="textCarousel">Modèle 3D Lider</h3>
             </Carousel.Caption>
