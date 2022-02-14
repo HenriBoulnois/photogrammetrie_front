@@ -13,6 +13,7 @@ import Smartphone from "./components/Smartphone";
 import "./components/main.css";
 import Visualisation from "./components/Visualisation";
 import Lidar from "./components/Lidar";
+import Bibliographie from "./components/Bibliographie"
 
 
 ReactDOM.render(
@@ -50,6 +51,11 @@ ReactDOM.render(
             <Nav.Link href="/contact">Contact</Nav.Link>
           </div>
         </Nav.Item>
+        <Nav.Item>
+          <div class="navigation">
+            <Nav.Link href="/bibliographie">Bibliographie</Nav.Link>
+          </div>
+        </Nav.Item>
       </Nav>
 
       <Routes>
@@ -60,6 +66,7 @@ ReactDOM.render(
         <Route path="/traitement" element={<Traitement />} />
         <Route path="/smartphone" element={<Smartphone />} />
         <Route path="/lidar" element={<Lidar />} />
+        <Route path="/bibliographie" element={<Bibliographie />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

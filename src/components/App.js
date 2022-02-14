@@ -23,21 +23,21 @@ export default function App() {
       <Row style={{ marginLeft: 0, marginRight: 0 }}>
         <Carousel>
           <Carousel.Item>
-            <img src="images/testbanniere.jpg" class="imgCarousel" />
+            <img src="images/accueilcarousel1.png" class="imgCarousel" />
             <Carousel.Caption>
               <h3>Prise large de drone</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src="images/testbanniere.jpg" class="imgCarousel" />
+            <img src="images/accueilcarousel2.jpg" class="imgCarousel" />
             <Carousel.Caption>
-              <h3>Prise rapprochée de drone</h3>
+              <h3 class="textCarousel">Prise rapprochée de drone</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src="images/testbanniere.jpg" class="imgCarousel" />
+            <img src="images/accueilcarousel3.png" class="imgCarousel" />
             <Carousel.Caption>
-              <h3>Modèle 3D Lider</h3>
+              <h3 class="textCarousel">Modèle 3D Lider</h3>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -75,6 +75,9 @@ export default function App() {
                     </ol>
                     <li class="modelTitle">
                       <a href="/contact">Contact</a>
+                    </li>
+                    <li class="modelTitle">
+                      <a href="/bibliographie">Bibliographie</a>
                     </li>
                   </ol>
                 </div>
