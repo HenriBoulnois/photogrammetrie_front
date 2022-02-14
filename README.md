@@ -11,13 +11,20 @@ Voici les étapes à suivre :
 
 Ouvrir le terminal et taper dans l'ordre :
 `sudo dnf module install nodejs:14`
+
 `git clone https://github.com/HenriBoulnois/photogrammetrie_front.git`
+
 `cd photogrammetrie_front`
+
 `npm install`
 `npm i three`
+
 `npm i @three-fiber/drei`
+
 `npm run build`
+
 `node server/server.js`
+
 
 ([15/02] Un bug est présent avec le Canvas, le site apparait quelques secondes avant d'afficher une page blanche due au bug, ce bug n'a été reproduit que sur la VM Fedora, le site est donc accessible dans la même version à https://photogrammetrie-front.herokuapp.com )
 
