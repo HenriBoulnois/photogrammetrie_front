@@ -17,6 +17,7 @@ Ouvrir le terminal et taper dans l'ordre :
 `cd photogrammetrie_front`
 
 `npm install`
+
 `npm i three`
 
 `npm i @three-fiber/drei`
