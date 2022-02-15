@@ -26,7 +26,7 @@ Ouvrir le terminal et taper dans l'ordre :
 
 `node server/server.js`
 
-
+Taper dans Firefox `localhost:3000`
 ([15/02] Un bug est présent avec le Canvas, le site apparait quelques secondes avant d'afficher une page blanche due au bug, ce bug n'a été reproduit que sur la VM Fedora, le site est donc accessible dans la même version à https://photogrammetrie-front.herokuapp.com )
 
 ## Utilisation
